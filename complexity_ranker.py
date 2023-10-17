@@ -47,6 +47,6 @@ def get_git_file_info(report):
 
 # Change to the directory
 with open("report.txt", "w") as report:
-    dir_path = input("Enter Git directory full path:")
+    dir_path = input("Enter Git directory full path: ")
     os.chdir(dir_path)
     get_git_file_info(report)
